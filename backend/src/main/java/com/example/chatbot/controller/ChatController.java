@@ -1,5 +1,4 @@
 package com.example.chatbot.controller;
-
 import com.example.chatbot.model.ChatRequest;
 import com.example.chatbot.model.ChatResponse;
 import com.example.chatbot.service.ChatService;
@@ -16,7 +15,7 @@ public class ChatController {
 
     @PostMapping("/chat")
     public ChatResponse chat(@RequestBody ChatRequest request) {
-        String reply = chatService.getReply(request.getMessage());
+        String reply = chatService.getResponse(request.getMessage());
         return new ChatResponse(reply);
     }
 }
