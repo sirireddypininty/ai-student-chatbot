@@ -19,7 +19,7 @@ async function sendMessage() {
 
     try {
 
-        const response = await fetch("http://localhost:5000/chat", {
+        const response = await fetch("https://ai-student-chatbot-1-c8tp.onrender.com", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
