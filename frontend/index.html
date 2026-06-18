@@ -1,20 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-        <title>AI Student Chatbot</title>
-        <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Student Assistant</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>AI Student Chatbot</h1>
+<div class="app">
 
-    <input type="text" id="message" placeholder="Ask a question">
-    <button onclick="sendMessage()">Send</button>
+    <aside class="sidebar">
+        <h2>🎓 AI Student</h2>
 
-    <h3>Response:</h3>
-    <p id="response"></p>
+        <button class="new-chat" onclick="newChat()">+ New Chat</button>
 
-    <script src="script.js"></script>
+        <div class="menu">
+    <p onclick="quickQuestion('What is Java?')">📚 Java Help</p>
+    <p onclick="quickQuestion('What is Python?')">🐍 Python Help</p>
+    <p onclick="quickQuestion('What is DSA?')">💻 DSA Practice</p>
+    <p onclick="quickQuestion('Interview preparation tips')">🎯 Interview Prep</p>
+</div>
 
+        <div class="footer">
+
+    <button id="themeBtn" onclick="toggleTheme()">
+        🌙 Dark Mode
+    </button>
+
+    <p>Built with Node.js</p>
+
+</div>
+    </aside>
+
+    <main class="main">
+
+        <div class="header">
+            <h1>AI Student Assistant</h1>
+            <p>Ask coding, DSA, Java, Python and interview questions</p>
+        </div>
+
+        <div id="chatBox" class="chat-box">
+
+            <div class="welcome">
+                <h2>👋 Welcome</h2>
+                <p>Ask anything about coding and studies.</p>
+            </div>
+
+        </div>
+
+        <div class="input-area">
+            <input
+                type="text"
+                id="message"
+                placeholder="Type your question..."
+            >
+
+            <button onclick="sendMessage()">Send</button>
+        </div>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
