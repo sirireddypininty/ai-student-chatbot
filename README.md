@@ -1,28 +1,43 @@
-# AI Student Chatbot
+# AI Student Chatbot 🚀
 
-A simple chatbot built using Spring Boot, HTML, CSS and JavaScript.
+A full-stack AI chatbot built using Node.js and Express that helps students with coding questions and interview preparation.
 
-## Technologies Used
+---
 
-- Java
-- Spring Boot
-- Maven
-- HTML
-- CSS
-- JavaScript
+## 🌐 Live Demo
 
-## How to Run
+- Frontend (Vercel): https://ai-student-chatbot-c1aq.vercel.app
+  
+- Backend (Render): https://ai-student-chatbot-1-c8tp.onrender.com  
 
-1. Open terminal
-2. Go to backend folder
+---
 
-cd backend
-mvn spring-boot:run
+## 🛠️ Tech Stack
 
-3. Open frontend/index.html in browser
+- HTML  
+- CSS  
+- JavaScript  
+- Node.js  
+- Express.js  
+- REST API  
+- Git & GitHub  
+- Vercel (Frontend Deployment)  
+- Render (Backend Deployment)
 
-## Features
+---
 
-- Student chatbot
-- Answers questions about Java, DSA, DBMS and OOPS
-- Placement tips
+## ⚙️ Features
+
+- 💬 Real-time chatbot interface  
+- 🧠 Backend API integration  
+- 🎓 Answers coding questions (Java, Python, DSA, DBMS, OS, CN, OOPS)  
+- ⚡ Fast response system  
+- 🌐 Fully deployed full-stack application  
+
+---
+
+## 🚀 How to Run Locally
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/sirireddypininty/ai-student-chatbot.git
